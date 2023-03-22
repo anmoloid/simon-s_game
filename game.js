@@ -35,19 +35,19 @@ function playSound(name)
     switch(name)
     {
         case "red":
-            var audio=new Audio('/Users/anmolagarwal/Documents/web development/Simon Game Challenge Starting Files/sounds/red.mp3');
+            var audio=new Audio('red.mp3');
             audio.play();
             break;
         case "blue":
-            var audio=new Audio('/Users/anmolagarwal/Documents/web development/Simon Game Challenge Starting Files/sounds/blue.mp3');
+            var audio=new Audio('blue.mp3');
             audio.play();
             break;
         case "green":
-            var audio=new Audio('/Users/anmolagarwal/Documents/web development/Simon Game Challenge Starting Files/sounds/green.mp3');
+            var audio=new Audio('green.mp3');
             audio.play();
             break;
         case "yellow":
-            var audio=new Audio('/Users/anmolagarwal/Documents/web development/Simon Game Challenge Starting Files/sounds/yellow.mp3');
+            var audio=new Audio('yellow.mp3');
             audio.play();
             break;
     }
@@ -89,7 +89,7 @@ function checkAnswer(currentLevel)
    }
    else
    {
-    var audio=new Audio('/Users/anmolagarwal/Documents/web development/Simon Game Challenge Starting Files/sounds/wrong.mp3');
+    var audio=new Audio('wrong.mp3');
     audio.play();
     $("body").addClass("game-over")
     setTimeout(function(){
